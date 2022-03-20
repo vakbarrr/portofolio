@@ -13,6 +13,7 @@ class Login extends CI_Controller
 
     $this->load->model('Model_user');
   }
+
   public function index()
   {
     $this->load

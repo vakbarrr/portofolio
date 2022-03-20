@@ -14,7 +14,7 @@
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url('assets/sbadmin/') ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url('assets/sbadmin/') ?>css/sb-admin-2.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="">
+<body class="" style="font-family:'Poppins'">
 
     <div class="container">
 
@@ -45,12 +45,12 @@
                                     </div>
                                     <form class="user">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user" name="username" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter usernme...">
+                                            <input type="text" class="form-control form-control-user" name="username" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter username">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user" name="password" id="exampleInputPassword" placeholder="Password">
+                                            <input type="password" class="form-control form-control-user" name="password" id="exampleInputPassword" placeholder="Enter Password">
                                         </div>
-                                        <button type="submit" id="submit" class="btn btn-warning btn-user btn-block">
+                                        <button type="submit" id="submit" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </button>
                                     </form>
